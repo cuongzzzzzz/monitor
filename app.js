@@ -2,7 +2,7 @@ const express = require('express');
 const client = require('prom-client');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 // Thiết lập metrics cho Prometheus
 const register = new client.Registry();
